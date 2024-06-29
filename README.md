@@ -62,3 +62,9 @@ To run these projects on your local machine, follow these steps:
     ```bash
     java [Class_Name]
     ``
+5. Example Compile And Run
+    ```bash
+    cd Boxing_Match_Simulator/src
+    javac Fighter.java Main.java Ring.java
+    java Main
+    ``
