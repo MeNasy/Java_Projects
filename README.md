@@ -53,18 +53,57 @@ To run these projects on your local machine, follow these steps:
     cd [Project_Directory_Name]
     ```
 
-3. Compile the Java files:
+3. Compile and Run:
     ```bash
-    javac [Files_Name.java]
+    javac [File_Name.java]
+    java [Class_Name]
     ```
 
-4. Run the application:
-    ```bash
-    java [Class_Name]
-    ``
-5. Example Compile And Run
+4. **Example Compile and Run for Boxing Match Simulator:**
+
+    Navigate to the `Boxing_Match_Simulator/src` directory, compile, and run the project:
     ```bash
     cd Boxing_Match_Simulator/src
     javac Fighter.java Main.java Ring.java
     java Main
-    ``
+    ```
+
+5. **Example Output of Boxing Match Simulator:**
+
+    Here is an example of the output from running the Boxing Match Simulator:
+
+    ```text
+    ********** The first hit will be dealt by Jeyden Osterwolde! *******
+
+    -------------------NEW ROUND--------------------
+    Jeyden Osterwolde => Osayi Samuel dealt 30 damage!
+    Osayi Samuel dodged the incoming attack!
+    Osayi Samuel => Jeyden Osterwolde dealt 50 damage!
+    =================================================
+    Jeyden Osterwolde Remaining HP: 100
+    Osayi Samuel Remaining HP: 150
+    =================================================
+    -------------------NEW ROUND--------------------
+    Jeyden Osterwolde => Osayi Samuel dealt 30 damage!
+    Osayi Samuel dodged the incoming attack!
+    Osayi Samuel => Jeyden Osterwolde dealt 50 damage!
+    =================================================
+    Jeyden Osterwolde Remaining HP: 50
+    Osayi Samuel Remaining HP: 150
+    =================================================
+    -------------------NEW ROUND--------------------
+    Jeyden Osterwolde => Osayi Samuel dealt 30 damage!
+    Osayi Samuel dodged the incoming attack!
+    Osayi Samuel => Jeyden Osterwolde dealt 50 damage!
+
+    Match Winner >>>>>>>>>> Osayi Samuel <<<<<<<<<<<<<<
+
+    =================================================
+    Jeyden Osterwolde Remaining HP: 0
+    Osayi Samuel Remaining HP: 150
+    =================================================
+    ```
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
